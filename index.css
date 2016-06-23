@@ -1,0 +1,4 @@
+﻿/*html, body
+{font-family: define it here not in index.html
+}               */
+.title {background-color: black; color: white; text-align: center; font-size: 2.5em; }
