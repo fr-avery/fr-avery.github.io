@@ -12,3 +12,8 @@
   left: 0; 
   padding: 25px; 
 }
+
+.text {
+  text-align: center;
+  padding: 15px;
+}
