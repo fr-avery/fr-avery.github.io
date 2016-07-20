@@ -80,3 +80,7 @@ h {
   text-decoration: none;
   color: dark gray;
 }
+
+p {
+  margin-top: 10px;
+}
