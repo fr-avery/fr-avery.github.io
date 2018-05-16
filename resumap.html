@@ -89,59 +89,77 @@ var map = new mapboxgl.Map({
         pitch: 0
 });
 var chapters = {
-    'welcome': {
+    'welcome': {        //opening shot
         bearing: -0,
-        center: [-108.866174, 49.272291],
-        zoom: 2,
+        center: [9.313321, 30.824747],
+        zoom: 1.33,
         speed: 0.8,
         pitch: 0
     },
-    'section1': {
+    'section1': {       //Seoul
+        bearing: 26.37,
+        center: [126.984710, 37.523297],
+        zoom: 13.34,
+        pitch: 7.5
+    },
+    'section2': {       //Hong Kong
+        bearing: 12.35,
+        center: [114.163717, 22.289556],
+        zoom: 12.35,
+        pitch: 38.5
+    },
+    'section3': {       //Ho Chi Minh
+        bearing: 12,
+        center: [106.702533, 10.781568],
+        zoom: 13.01,
+        pitch: 49
+    },
+    'section4': {      //Mexico
+        center: [-99.172519, 19.392511],
+        bearing: 67.2,
+        zoom: 11.38,
+        speed: 0.6,
+        pitch: 52
+    },
+    'section5': {       //Singapore
+        bearing: 122.24,
+        center: [103.817963, 1.309819],
+        zoom: 13.85,
+        speed: 0.6,
+        pitch: 58.5
+    },
+    'section6': {       //Arlington
+        bearing: -2.7,
+        center: [-77.106736, 38.865468],
+        zoom: 14.21,
+        speed: 0.6,
+        pitch: 28
+    },
+    'section7': {       //Williamsburg
         bearing: 0,
-        center: [-105.391504, 34.371086],
-        zoom: 6.00,
-        pitch: 0
-    },
-    'section2': {
-        center: [-122.316235, 47.605958],
-        bearing: 54.40,
-        zoom: 12.59,
-        speed: 0.6,
-        pitch: 44.50
-    },
-    'section3': {
-        bearing: 12.80,
-        center: [-0.075681, 51.498018],
-        zoom: 13.18,
-        speed: 0.6,
-        pitch: 0.00
-    },
-    'section4': {
-        bearing: 60,
-        center: [-134.408720, 58.300388],
-        zoom: 16.57,
-        speed: 0.6,
-        pitch: 45
-    },
-    'section5': {
-        bearing: 15.20,
-        center: [29.027289, 41.013899],
-        zoom: 10.56,
-        pitch: 40.50,
+        center: [-76.713310, 37.270598],
+        zoom: 15.68,
+        pitch: 27.5,
         speed: 0.6
     },
-    'section6': {
-        bearing: 0,
-        center: [-63.594167, -17.701427],
-        zoom: 5.53,
-        pitch: 0,
+    'section8': {       //Rome
+        bearing: -17.6,
+        center: [12.490065, 41.906781],
+        zoom: 14.89,
+        pitch: 30,
         speed: 0.6
     },
-    'section7': {
-        bearing: -0,
-        center: [27.230526, 0.000000],
-        zoom: 1.18,
+    'section9': {       //Woodley Park
+        bearing: -20.83,
+        center: [-77.048159, 38.923358],
+        zoom: 14.24,
         speed: 0.8,
+        pitch: 44
+    },
+    'section10': {       //final shot
+        bearing: 0,
+        center: [-77.033712, 38.899953,
+        zoom: 17.07,
         pitch: 0
     },
 };
